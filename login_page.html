@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #74ABE2, #5563DE);
+    }
+    .login-container {
+      background: #fff;
+      padding: 40px 35px;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+      width: 100%;
+      max-width: 380px;
+      text-align: center;
+      animation: fadeIn 0.7s ease;
+    }
+    .login-container h2 {
+      margin-bottom: 24px;
+      color: #333;
+    }
+    .input-field {
+      width: 100%;
+      padding: 12px 14px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      outline: none;
+      font-size: 15px;
+      transition: border-color 0.3s ease;
+    }
+    .input-field:focus {
+      border-color: #5563DE;
+    }
+    .login-btn {
+      width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+      background-color: #5563DE;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .login-btn:hover {
+      background-color: #3943b7;
+    }
+    .extra-links {
+      margin-top: 18px;
+      font-size: 14px;
+    }
+    .extra-links a {
+      color: #5563DE;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .extra-links a:hover {
+      color: #3943b7;
+      text-decoration: underline;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-15px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="/login" method="post">
+      <input type="text" name="username" class="input-field" placeholder="Username" required />
+      <input type="password" name="password" class="input-field" placeholder="Password" required />
+      <button type="submit" class="login-btn">Sign In</button>
+      <div class="extra-links">
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+        <p><a href="#">Forgot password?</a></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
