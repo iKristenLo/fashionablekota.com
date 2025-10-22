@@ -1,0 +1,249 @@
+/*
+Template Name: AppiRays
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+/*___________________________Responsive _________________________________*/
+
+@media only screen and (max-width: 479px){
+    .tv-home-banner{ min-height:500px; height:auto;}
+    .button-group a + a { margin-left: 8px; }
+    .btn-default, .btn-primary {
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        padding: 13px 16px;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width:639px) {
+    .tv-home-banner{ min-height: 480px; height:auto;}
+}
+
+
+
+@media only screen and (min-width: 640px) and (max-width:767px) {
+    .tv-home-banner{ min-height: 520px; height:auto;}
+}
+
+@media (max-width: 992px) {
+    h1 { font-size: 28px; }
+    .about-wrap-icon {
+        font-size: 30px;
+        height: 80px;
+        line-height: 80px;
+        width: 80px;
+    }
+    /*    h3 {
+            font-size: 17px;
+        }*/
+    .tv-section {
+        padding-top: 100px;
+    }
+    .tv-padd-tb-120 {
+        padding-bottom: 100px !important;
+        padding-top: 100px !important;
+    }
+    .tv-section-offspace-120 {
+        margin-top: 100px !important;
+    }
+    .tv-subheader {
+        padding: 0 25px;
+    }
+    .large-icon {
+        font-size: 40px;
+    }
+    .tv-subheader h2, .tv-box-content h3 {
+        font-size: 20px;
+    }
+    .tv-offspace-top-70 {
+        margin-top: 50px;
+    }
+    #feature .feature-wrap .media-body {
+        text-align: center;
+    }
+    .feature-wrap, #feature figure {
+        margin-top: 40px;
+    }
+    .counter {
+        font-size: 35px;
+    }
+    .tv-counter-title {
+        letter-spacing: 1px;
+    }
+    .tv-tab-view ul.nav li a {
+        height: 45px;
+        margin-right: 25px;
+        padding: 6px;
+        width: 45px;
+    }
+    .tv-tab-view ul.nav li.active a.nav-link {
+        font-size: 18px;
+    }
+    .tv-tab-view ul.nav {
+        display: block;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .tv-tab-view ul.nav li {
+        display: inline-block;
+    }
+    .owl-nav div {
+        left: -10px;
+        font-size: 22px;
+    }
+    .owl-nav div.owl-next {
+        /*left: auto;*/
+        right: -15px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-default .navbar-toggle{
+        margin:0;
+        border-color:#fff;
+    }
+    .navbar-default .navbar-toggle .icon-bar{
+        background:#fff;
+    }
+    .navbar-default .navbar-toggle:focus, 
+    .navbar-default .navbar-toggle:hover{
+        background:#fff;
+    }
+    .navbar-default .navbar-toggle:focus .icon-bar, 
+    .navbar-default .navbar-toggle:hover .icon-bar{
+        background-image: -moz-linear-gradient(-45deg, #c21500   0px, #f857a6 100%);
+        background-image: -webkit-linear-gradient(-45deg, #c21500   0px, #f857a6 100%);
+        background-image: -ms-linear-gradient(-45deg, #c21500   0px, #f857a6 100%);
+        background-image: linear-gradient(-45deg, #c21500   0px, #f857a6 100%);
+    }
+    .navbar-default.navbar-fixed-top {
+        background-image: -moz-linear-gradient(-45deg, #c21500   0px, #f857a6 100%);
+        background-image: -webkit-linear-gradient(-45deg, #c21500   0px, #f857a6 100%);
+        background-image: -ms-linear-gradient(-45deg, #c21500   0px, #f857a6 100%);
+        background-image: linear-gradient(-45deg, #c21500   0px, #f857a6 100%);
+        padding: 15px 0;
+    }
+    .navbar-nav{
+        margin:0;
+    }
+    #navbar{
+        padding:0;
+        box-shadow:none;
+        border:none;
+    }
+    .nav.navbar-nav.navbar-right {
+        padding: 15px 0 0;
+    }
+    .navbar-default .navbar-nav > li{
+        margin:0 0 3px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        text-align:center
+    }
+    .tv-right-side-fix {
+        display: none;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .tv-banner-content p {
+        font-size: 14px;
+        letter-spacing: 0.02em;
+        line-height: 24px;
+    }
+    .tv-padd-tb-120, .tv-padd-tb-100 {
+        padding-bottom: 80px !important;
+        padding-top: 80px !important;
+    }
+    .tv-section-offspace-120 {
+        margin-top: 80px !important;
+    }
+    .tv-section {
+        padding-top: 80px;
+    }
+    #feature div > .feature-wrap:first-child {
+        margin-top: 0;
+    }
+    .feature-wrap, #feature figure {
+        margin-bottom: 40px;
+    }
+    .tv-user-review {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    #review-carousel .owl-item div {
+        padding: 4px;
+    }
+    .tv-screenshot-wrapper .owl-item img {
+        margin: auto;
+        max-width: 100%;
+        width: auto;
+    }
+    .owl-nav div {
+        left: 15px;
+    }
+    .owl-nav div.owl-next {
+        right: 10px;
+    }
+    #back-to-top {
+        right: 10px;
+        font-size: 18px;
+        height: 40px;
+        line-height: 40px;
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 639px){
+    .large-icon {
+        font-size: 32px;
+    }
+    .tv-subheader h2, .tv-box-content h3 {
+        font-size: 17px;
+    }
+    .tv-subheader {
+        padding: 0 10px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    .feature-wrap .media i {
+        font-size: 30px;
+    }
+    .tv-hidden-small-view {
+        display: none;
+    }
+    .tv-download-content > p {
+        font-size: 14px;
+    }
+    .tv-width-50 {
+        width: 95%;
+    }
+    .tv-newletter-title h4 {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .navbar-default .navbar-nav > li {
+        margin-left: 2px;
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 12px;
+        padding: 9px 11px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (min-width: 1200px){}
+
+@media (max-width: 1024px) {}
+
+
+
+@media (min-width: 768px) {}
